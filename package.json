@@ -1,0 +1,24 @@
+{
+  "name": "ma-research-assistant",
+  "version": "1.0.0",
+  "description": "Medical Affairs Research Assistant - Autonomous research system for pharmaceutical/medical affairs using Venice API and PubMed",
+  "main": "src/agent.js",
+  "scripts": {
+    "research": "node src/agent.js",
+    "search": "node src/cli.js search",
+    "abstract": "node src/cli.js abstract",
+    "paper": "node src/cli.js paper",
+    "slides": "node src/cli.js slides",
+    "test": "node src/test.js"
+  },
+  "keywords": ["medical-affairs", "pharmaceutical", "research", "ai", "venice", "pubmed", "healthcare"],
+  "author": "Vivek Gates",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "readline": "^1.3.0",
+    "puppeteer": "^21.6.1",
+    "pptxgenjs": "^3.12.0"
+  }
+}
